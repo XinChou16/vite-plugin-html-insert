@@ -1,12 +1,36 @@
 {
   "name": "vite-plugin-html-insert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
+  "description": "insert env variables in html file",
   "scripts": {
     "dev": "pnpm --dir example dev"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vue",
+    "react",
+    "svelte",
+    "vite",
+    "webpack",
+    "plugin",
+    "html",
+    "html-plugin",
+    "replace",
+    "insert",
+    "ejs",
+    "interploate"
+  ],
+  "files": [
+    "index.js",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XinChou16/vite-plugin-html-insert.git"
+  },
+  "author": "Xin Zhou",
   "license": "MIT",
-  "description": ""
+  "homepage": "https://github.com/XinChou16/vite-plugin-html-insert"
 }
