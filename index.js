@@ -29,7 +29,7 @@ const getHtmlContent = async (filePath, mode, options) => {
 
         return content;
     } catch (error) {
-        console.log(error);
+        console.error(error);
     }
 };
 
@@ -52,8 +52,6 @@ const insertContentHtmlPlugin = (options = {}) => {
             });
         },
         load(id) {
-            console.log('load', id);
-            console.log(_env);
             if (path.extname(id) === '.html') {
                 return getHtmlContent(id, _env.mode, options);
             }
