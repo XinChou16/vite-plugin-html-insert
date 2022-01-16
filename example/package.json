@@ -3,6 +3,7 @@
   "main": "main.js",
   "scripts": {
     "dev": "vite",
+    "build:test": "vite build --mode test",
     "build": "vite build"
   },
   "devDependencies": {
