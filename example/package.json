@@ -1,0 +1,11 @@
+{
+  "name": "example",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^2.7.10"
+  }
+}

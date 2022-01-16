@@ -1,0 +1,2 @@
+// entry
+console.log('entry');

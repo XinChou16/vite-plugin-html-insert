@@ -1,0 +1,12 @@
+{
+  "name": "vite-plugin-html-insert",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --dir example dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": ""
+}
