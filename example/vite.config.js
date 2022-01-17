@@ -1,4 +1,5 @@
 import insertContentHtmlPlugin from '../';
+import path from 'path';
 
 export default {
     plugins: [
@@ -11,5 +12,13 @@ export default {
                 return content;
             }
         })
-    ]
+    ],
+    build: {
+        rollupOptions: {
+            input: {
+                index: path.resolve(__dirname, 'index.html'),
+                main: path.resolve(__dirname, 'main.html')
+            }
+        }
+    }
 }
